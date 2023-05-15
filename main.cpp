@@ -1,9 +1,9 @@
-/* чат с использованием контейнеров стандартной библиотеки шаблонов.
- - передача по константной ссылке const std::string&. 
-  - multimap < string, string >::iterator заменен на auto
-  - unordered_map < string, string >::iterator заменен на auto
-  -  Функции-геттеры должны быть константными членами класса, т. е. должны быть объявлены с ключевым словом cons
-  
+/*  
+ - chat using containers of the standard template library.
+ - transmission by constant reference const std::string&. 
+ - multimap < string, string>::iterator replaced with auto
+ - unordered_map < string, string>::iterator replaced with auto
+ - Getter functions must be constant members of the class, i.e. they must be declared with the keyword cons
 
 */
 
@@ -12,9 +12,9 @@
 int main() {
 	Menu menu;
 
-	while (menu.main_menu()) {													// Цикл оснновного меню
+	while (menu.main_menu()) {													// Г–ГЁГЄГ« Г®Г±Г­Г­Г®ГўГ­Г®ГЈГ® Г¬ГҐГ­Гѕ
 
-		while (menu.getChatRun() && menu.chat()) {								// Если выполнен вход и вызов меню чат
+		while (menu.getChatRun() && menu.chat()) {								// Г…Г±Г«ГЁ ГўГ»ГЇГ®Г«Г­ГҐГ­ ГўГµГ®Г¤ ГЁ ГўГ»Г§Г®Гў Г¬ГҐГ­Гѕ Г·Г ГІ
 		}
 	}
 	return 0;
